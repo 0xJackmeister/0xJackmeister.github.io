@@ -1,4 +1,4 @@
 # Jack is Jacks
 
-## Linkdein
+## Linkedin
 https://www.linkedin.com/in/jackmeister/
