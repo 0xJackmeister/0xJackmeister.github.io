@@ -209,6 +209,7 @@ default: "http://localhost:1337" == default: "http://chal.idek.team:1337"
 ```
        
    - Means by accessing `info.php` in `chal.idek.team:1337` we can get that flag since httpsOnly cookies are also stored inside `phpinfo`
+
 https://hackcommander.github.io/posts/2022/11/12/bypass-httponly-via-php-info-page/
 https://www.webhackingtips.com/weekly-tips/week-8-stealing-httponly-cookies-from-phpinfo
 https://security.stackexchange.com/questions/120025/using-phpinfo-to-get-httponly-cookies
