@@ -29,7 +29,6 @@ function sanitizeInput(str) {
 looks like XSS payload is sanitized 
 
 ## app.py
-
 ```js
 @app.after_request
 def add_security_headers(resp):
