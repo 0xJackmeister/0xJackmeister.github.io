@@ -1,14 +1,17 @@
 ---
 title: SEKAICTF 2024 Web Tagless
 
-categories: [Pentest, XSS, Web, CTF, CSRF]
+categories: [XSS, Web Pentest, CTF, Web, CSRF]
 
-tags: [Pentest, CTF, Web, CSRF, Cookie, XSS]
+tags: [XSS, CSRF, Web, Pentest, Cookie, CTF]
 
 image: /assets/img/uploads/sekai.png
 
 ---
-## TLDR : 404 -> XSS -> Bypass CSP -> CSRF
+# The Story
+Another week , another ctf , this time i was abit occupied with some issues , only managed to join after the CTF ended.
+# TLDR 
+404 -> XSS -> Bypass CSP -> CSRF
 
 ## index.html
 ```html
