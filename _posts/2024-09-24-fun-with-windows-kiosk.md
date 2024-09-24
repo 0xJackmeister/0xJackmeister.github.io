@@ -1,5 +1,5 @@
 ---
-title: Funs With Windows: Escaping Kiosk
+title: Funs With Windows Escaping Kiosk
 
 categories: [Kiosk, Sandbox Escape, Escaping, Breaking, lockdown]
 
