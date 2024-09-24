@@ -19,13 +19,13 @@ runas /user:admin cmd.exe (For Priv Esc if admin pass is known)
 ```
 ## Setup
 <html>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sTCEuNcTF_0?si=_198y_EWvs2a1bsu&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sTCEuNcTF_0?si=1fLSH6e30pA48sRa&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </html>
 
 ## Messing With F1 button
 <html>
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78ARu5L_5Rs?si=eVa6pyKQ5Edgiy-I&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78ARu5L_5Rs?si=qdftCVD8KNSnWtzA&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 </html>
 
