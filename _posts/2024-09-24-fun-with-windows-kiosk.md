@@ -18,4 +18,6 @@ CTRL + SHIFT + Escape (Task Manager)
 runas /user:admin cmd.exe (For Priv Esc if admin pass is known)
 ```
 # Setup
+{% include embed/{youtube}.html id='{sTCEuNcTF_0}' %}
 
+https://youtu.be/b5kjk1dQvsg
