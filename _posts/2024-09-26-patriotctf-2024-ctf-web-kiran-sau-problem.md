@@ -11,6 +11,7 @@ image: /assets/img/uploads/PCTF.png
 # TLDR
 ACL Misconfigure -> YAML input issue 
 
+![[Pasted image 20240927024141.png]]
 ## Part 1
 ```bash
 # create .htpasswd file
@@ -70,13 +71,14 @@ $url = $_GET['url'];
 ```
 Reading the source code reveals that there is two GET variables we can use.
 
+
 ```yaml
 $yaml = <<<EOF
 - country: $input
 - country_code: $countryList[$input]
 EOF;
 ```
-each input was passed into the yaml file and no input validation was done
+Each input was passed into the yaml file and no input validation was done
 
 
 ```php
@@ -85,7 +87,18 @@ if (isset($input)) {
         echo "The country code for ".$parsed_arr[0]['country']." is ". $cc.'<br>';
         run($cc, $url);
 ```
+
+```
+Afghanistan%20
+```
 Therefore we can add more into the yaml entry by abusing space aka %20 by adding in nothing
+
+
+```yaml
+- country: Afghanistan
+- country_code: 
+```
+Expected resulted modified yaml entry
 
 
 ```php
@@ -99,17 +112,6 @@ function run($cc, $url) {
 }
 ```
 This will then trigger `!$cc` 
-
-### Crafted payload
-```
-Afghanistan%20
-```
-
-Expected resulted modified yaml entry
-```yaml
-- country: Afghanistan
-- country_code: 
-```
 
 
 ### Final payload
