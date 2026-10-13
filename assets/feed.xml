@@ -48,10 +48,7 @@ permalink: /feed.xml
   {% if post.summary %}
     <summary>{{ post.summary | strip }}</summary>
   {% else %}
-    <summary>
-      {% include no-linenos.html content=post.content %}
-      {{ content  | strip_html | truncate: 400 }}
-    </summary>
+    <summary>{{ post.content | strip_html | normalize_whitespace | truncate: 400 | xml_escape }}</summary>
   {% endif %}
 
   </entry>
